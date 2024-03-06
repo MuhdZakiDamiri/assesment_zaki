@@ -3,6 +3,7 @@
 
 # Project info : 
     - Run on php 8.1
+    - Laravel 10
     - This is meant for Assessment only
 
 ## How to run this project? :
