@@ -41,7 +41,7 @@ class userController extends Controller
             'first_name' => 'nullable',
             'last_name' => 'nullable',
             'phone_num' => 'nullable',
-            'department_id' => 'required|exists:departments,id',
+            'department_id' => 'required|exists:department,id',
         ]);
 
         if ($validation->fails()) {
